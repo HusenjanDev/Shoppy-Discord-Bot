@@ -4,10 +4,26 @@ Recently an friend of mine asked me to code an Discord Bot which would automatic
 ## Setup
 Setting up the Discord Bot is really easy all you need to do is to create an config.json, shoppyitems.json, shoppyroles.json.
 
+### Config.json
+
 ```` 
-  // Config.json
-  "api" : "shoppy-api-key",
-  "database_ip" : "mysql-ip",
-  "database_user" : "mysql-username",
-  "database_password" : "mysql-password"
+  "api"                 : "shoppy-api-key",
+  "database_ip"         : "mysql-ip",
+  "database_user"       : "mysql-username",
+  "database_password"   : "mysql-password"
 ```` 
+### ShoppyItems.json
+```` 
+  "product-name"       : "product-id",
+  "product-name"       : "product-id",
+  "product-name"       : "product-id",
+  "product-name"       : "product-id"
+```` 
+### ShoppyRoles.json
+```` 
+  "product-name"       : "discord-role-id",
+  "product-name"       : "discord-role-id",
+  "product-name"       : "discord-role-id",
+  "product-name"       : "discord-role-id"
+````
+
